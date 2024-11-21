@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>sylani form</title>
+</head>
+<style>
+
+/* General styles */
+body {
+    background-color: rgb(216, 236, 187);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header section */
+.one {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.same{
+    margin-left:0%;
+}
+header{
+    border-bottom:  1px  white solid;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+
+
+.two {
+    font-weight: bold;
+    font-size: 150%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.mid {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: large;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.three  {
+ border:1px solid green;
+border-radius: 5px solid green;
+
+
+}
+.main >a {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgb(191, 227, 155) ;
+    color :black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(20, 211, 20);
+    border-right:  2px solid rgb(11, 202, 11);
+    transition: back-ground 2s , trasform 2s;
+    
+}
+.main > a:hover{
+    background-color: #2e779c;
+    color: white;
+    text-shadow: blue;
+    border: none;
+}
+
+.form-container {
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+    border: 1px solid rgb(220, 213, 213);
+    box-shadow: 2px 2px 5px rgb(75, 117, 13);
+    background-color: rgb(209, 251, 146);
+    border-radius: 30px;
+    position: relative;
+}
+.form-group, .group2 {
+    margin-bottom: 15px;
+}
+
+.form-group label, .group2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(29, 29, 111);
+}
+
+.form-group input, .form-group select, .group2 input, .group2 select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(17, 90, 17);
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Buttons */
+.sub-but {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s, transform 1s;
+    width: 40%;
+}
+
+.sub-but:hover {
+    background-color: #0056b3;
+}
+
+/* Picture rules */
+.picture-rules {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.picture-rules li {
+    margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .form-container {
+        width: 70%;
+    }
+    .sub-but {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        padding: 15px;
+    }
+    .sub-but {
+        width: 80%;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo, .two {
+        margin-left: 0;
+    }
+    .mid {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .form-group input, .form-group select, .group2 input, .group2 select {
+        width: 70%;
+    }
+    .sub-but {
+        width: 90%;
+    }
+    ul {
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+    .two {
+        font-size: 120%;
+    }
+}
+
+    
+
+ 
+
+
+
+</style>
+<body>
+   <header>
+    <div class="border">
+        
+        <div class="one">
+            <img src="https://forms.saylaniwelfare.com/static/media/logo.22bf709605809177256c.png" alt="saylani logo" width="300px" >
+        </div>
+        <ul>
+      <li> <div class="logo">
+            <div class="same">
+                <img src="https://en.followersnet.com/wp-content/uploads/2016/02/Facebook-1.png" alt="facebook" width="60px">
+            </div>
+        <div class="same"> 
+            <img src="https://static.vecteezy.com/system/resources/previews/024/398/617/non_2x/whatsapp-logo-icon-isolated-on-transparent-background-free-png.png" alt="watsapp" width="60px">
+        </div>
+            <div class="same">
+                <img src="https://forms.saylaniwelfare.com/static/media/instagram.1506b398fa46f19bb324.png" alt="insta" width="42px" height="42px"></div>
+        </div>
+        </li>
+        <li>
+        <div class="two">
+            REGISTRATION <br>
+            SMIT-FORM
+        </div>
+    </li>
+    <li>
+        <div class="three">
+            <button> <box-icon type='solid' name='graduation'></box-icon>student portal</button>
+        </div>
+    </li>
+    </ul>
+    <br>
+    
+        <div class="mid">Services-Education-Registration</div>
+        <center>
+            <br>
+        <div class="main">
+          <a href="#">Registration</a>  
+        
+    
+        <a href="#">Download ID Card</a>
+    
+    
+        <a href="#">Results</a>
+  
+
+        </div>
+        </div>
+    </center>
+   </header>
+   <br>
+   <div class="line"></div></div>
+   <main>
+    <center>
+        <div class="form-container">
+   <form action="#">
+    <div class="form-group">
+        <label for="select country" > Select Country</label>
+        <select id="country" name="country" required placeholder="select country">
+            <option value="">Select your country</option>
+            <option value="pak">pakistan</option>
+            <option value="china">china</option>
+            <option value="india">india</option>
+            <option value="Others">Others</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="selectn city"> select city</label>
+        <select name="city" id="city" required>
+      <option value="">Select your city</option>
+         <option value="balochistan">balochistan</option>
+         <option value="lahore">lahore</option>
+         <option value="karachi">karachi</option>
+         <option value="Others">Others</option>
+
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="select event"> Select course or event</label>
+        <select name="course" id="course" required>
+      <option value="">Select course or event</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="Select your computer proficiency">
+        Select your computer proficiency </label>
+    <select name="computer-proficiency" id="computer-proficiency" required>
+  <option value=""disabled selected>  Select your computer proficiency </option>
+     <option value="none">none</option>
+     <option value="beginer">beginer</option>
+     <option value="intermediate">intermediate</option>
+     <option value="advanced">advanced</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+</div>
+<div class="form-group">
+    <label for="father-name">Father Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+</div>
+<div class="form-group">
+    <label for="contact"> father CNIC(optional)</label>
+    <input type="contact" id="contact" name="name" placeholder="Father cnic" required>
+</div>
+<div class="form-group">
+    <label for="E-mail">Email</label>
+    <input type="email" id="email" name="name" placeholder="Enter your email" required>
+</div>
+
+<div class="form-group">
+    <label for="cnic"> Your CNIC</label>
+    <input type="text" id="cnic" name="cnic" placeholder="Enter your CNIC number" required>
+</div>
+<div class="form-group">
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" required>
+</div>
+<div class="form-group">
+    <label for="contact">Phone Number</label>
+    <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+</div>
+<div class="form-group">
+    <label for="select gender"> Select your Gender</label>
+    <select name="gender" id="gender" required>
+  <option value=""disabled selected >select gender</option>
+  <option value="femail">Female</option>
+  <option value="male">male</option>
+</select>
+</div>
+
+
+<div class="group2">
+    <label for="Address">Address</label>
+    <input type="text" id="name" name="name" placeholder="Address" required>
+</div>
+<div class="group2">
+    <label for="last qualification">Last Qualification</label>
+    <select name="qualification" id="qualification" required>
+  <option value="" disabled selected >  select your qualification </option>
+     <option value="matric">matric</option>
+     <option value="intermediate">intermediate</option>
+     <option value="undergraduation">undergraduation</option>
+     <option value="masters">masters</option>
+    </select>
+</div>
+<div class="group2">
+    <label for="laptop">Do You Have A Laptop</label>
+    <select name="laptop" id="laptop" required>
+  <option value="" disabled selected > do you have  Laptop </option>
+     <option value="yes">yes</option>
+     <option value="no">no</option>
+    </select>
+</div>
+    <div class="group3">
+        <label for="picture-upload" class="form-label">Picture</label>
+        <div class="upload-box">
+            <input type="file" id="picture-upload" accept="image/*">
+            <button class="upload-btn" onclick="document.getElementById('picture-upload').click()">+ Upload</button>
+        </div>
+    </center>
+   
+
+   </form>
+</div>
+    <button type="submit" class="sub-but">submit</button>
+</main>
+
+
+
+</body>
+</html>
